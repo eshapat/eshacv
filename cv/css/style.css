@@ -1,0 +1,407 @@
+body {
+    min-height: 100%;
+    margin: 0 auto;
+    background-color: rgb(198, 160, 123);
+
+}
+button {
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: blanchedalmond;
+    color: rgb(0, 0, 0);
+    font-family: "Rajdhani";
+    font-size: medium;
+    border: 1px solid peru;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: peru;
+    color: black;
+    border: 1px solid blanchedalmond;
+}
+
+.nav {
+    background-color: rgb(65, 37, 21);
+    border-bottom: 4px ridge blanchedalmond;
+    display: flex;
+    justify-content: right;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+}
+
+.nav:hover {
+    background-color: rgb(166, 110, 75);
+}
+
+.nav a {
+    font-family: "Rajdhani";
+    color: rgb(218, 200, 179);
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.nav a:hover {
+    color: rgb(15, 0, 70);
+}
+
+
+.section2 img {
+    margin-top: 0%;
+    padding: 0%;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+}
+
+.footer {
+    border-top: 4px ridge blanchedalmond;
+    margin-bottom: 0px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(65, 37, 21);
+
+}
+
+.footer:hover {
+    background-color: rgb(166, 110, 75);
+}
+
+.footer a {
+    font-family: "Rajdhani";
+    color: rgb(218, 200, 179);
+}
+
+.footer a:hover {
+    color: rgb(15, 0, 70);
+}
+
+
+.banner {
+    margin-top: 0%;
+    background-image: url("../BrownWallpaper.png");
+    width: 100%;
+    background-size: cover;
+    height: 700px;
+    font-family: "Space Grotesk";
+    font-size: xx-large;
+    color: blanchedalmond;
+    padding-top: 130px;
+    text-align: center;
+    vertical-align: -webkit-baseline-middle;
+
+
+
+}
+
+.banner h2 {
+    font-family: "Rajdhani";
+    font-size: larger;
+}
+
+.section2 {
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    margin-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    list-style: none;
+    font-family: "Rajdhani";
+    font-size: medium;
+    color: blanchedalmond;
+    text-align: center;
+}
+
+.section2 h2 {
+    font-size: x-large;
+    color: peru;
+
+}
+
+hr {
+    margin-top: 0px;
+    border: 4px ridge blanchedalmond;
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    display: grid;
+    justify-content: center;
+    justify-content: space-around;
+    margin-left: 220px;
+    margin-top: 50px;
+    width: 70%;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+    text-align: center;
+    text-size-adjust: auto;
+    padding: 10px;
+    font-family: "Rajdhani";
+    color: blanchedalmond;
+    list-style: none;
+
+}
+
+.about {
+    color: rgb(0, 0, 0);
+    font-family: "Rajdhani";
+    font-size: larger;
+    text-align: center;
+}
+
+.Lang {
+    width: 100%;
+    padding: 0px;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    grid-column: 1;
+    background-color: rgb(0, 0, 0);
+}
+
+.Lang h3 {
+    font-size: larger;
+    color: peru;
+}
+
+.Lang ul {
+    list-style-type: none;
+    text-align: center;
+    padding-left: 0px;
+    margin-left: 0px;
+}
+
+.Lang img {
+    width: 100%;
+    height: 60%;
+    padding: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    border-radius: 10px;
+}
+
+.Lang:hover {
+    box-shadow: 0 16px 24px 0 rgba(0, 0, 0, 0.8);
+}
+
+.Lead {
+    width: 100%;
+    padding: 0px;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    grid-column: 2;
+    background-color: rgb(0, 0, 0);
+}
+
+.Lead img {
+    width: 100%;
+    padding: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    border-radius: 10px;
+}
+
+.Lead h3 {
+    font-size: larger;
+    color: peru;
+}
+
+.Lead a {
+    color: peru;
+}
+
+.Lead a:hover {
+    color: rgba(39, 42, 255, 0.74);
+}
+
+.Lead:hover {
+    box-shadow: 0 16px 24px 0 rgba(0, 0, 0, 0.8);
+}
+
+
+
+.Skills {
+    width: 100%;
+    padding: 0px;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    grid-column: 3;
+    background-color: rgb(0, 0, 0);
+}
+
+.Skills img {
+    width: 100%;
+    height: 60%;
+    padding: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    border-radius: 10px;
+
+}
+
+.Skills h3 {
+    font-size: larger;
+    color: peru;
+}
+
+.Skills:hover {
+    box-shadow: 0 16px 24px 0 rgba(0, 0, 0, 0.8);
+}
+
+.contactInfo {
+    background-color: black;
+    padding-top: 20px;
+    width: 100%;
+    align-content: center;
+    text-align: center;
+    color: blanchedalmond;
+    font-family: "Space Grotesk";
+}
+
+.contactInfo h1 {
+    color: peru;
+    font-family: "Rajdhani";
+    font-size: xx-large;
+}
+
+.container2 {
+    display: grid;
+    justify-content: center;
+    justify-content: space-around;
+    margin-left: 405px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column: auto;
+    text-align: center;
+    text-size-adjust: auto;
+    padding-bottom: 5px;
+}
+
+.card {
+    padding-left: 5px;
+    width: 700px;
+    height: 500px;
+    justify-content: center;
+    justify-content: space-around;
+    border-radius: 5px 5px 5px 5px;
+    color: peru;
+    font-family: "Rajdhani";
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: rgb(0, 0, 0);
+    align-content: center;
+
+}
+
+.card:hover {
+    box-shadow: 5px 5px 8px 8px rgba(0, 0, 0, 0.8);
+
+}
+
+.formcontents {
+    /* margin-left: 35%; */
+    font-size: x-large;
+
+}
+
+.name {
+
+    margin-top: 5px;
+    margin-left: 5px;
+    padding-left: 0%;
+    width: 100%;
+}
+
+.email {
+    margin-top: 10%;
+    margin-left: 5px;
+    padding-left: 0%;
+    text-align: center;
+    width: 100%;
+}
+
+.message {
+    margin-top: 10%;
+    margin-left: 5px;
+    padding-left: 0%;
+    text-align: center;
+    width: 100%;
+}
+
+.textarea {
+    margin: 20;
+    padding-left: 0%;
+    padding-top: 5px;
+}
+
+form {
+    text-align: center;
+    align-content: center;
+    width: 100%;
+    height: 100%;
+
+}
+
+.contact {
+    background-color: rgb(198, 160, 123);
+}
+
+.nav2 {
+    display: flex;
+    justify-content: right;
+    padding-right: 10px;
+    background-color: rgb(65, 37, 21);
+    border-bottom: 4px ridge blanchedalmond;
+    text-decoration: none;
+}
+
+.nav2:hover {
+    background-color: rgb(166, 110, 75);
+
+}
+
+.nav2 a {
+    color: blanchedalmond;
+    font-family: "Rajdhani";
+
+}
+
+.nav2 a:hover {
+    color: rgb(15, 0, 70);
+}
+
+.footer2 {
+    border-top: 4px ridge blanchedalmond;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(65, 37, 21);
+
+}
+
+.footer2:hover {
+    background-color: rgb(166, 110, 75);
+}
+
+.footer2 a {
+    color: blanchedalmond;
+    font-family: "Rajdhani";
+}
+
+.footer2 a:hover {
+    color: rgb(15, 0, 70);
+}
